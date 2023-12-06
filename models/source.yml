@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: source_etl
+    schema: dbo
+    database: TA_Source
+    tables:
+      - name: '3'
+      - name: product_category
+      - name: product_type
+      - name: store
+      - name: store_8
+      - name: store5
